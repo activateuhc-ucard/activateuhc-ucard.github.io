@@ -1,1 +1,1 @@
-# activateuhc-ucard.github.io
+# activate.uhc.com
