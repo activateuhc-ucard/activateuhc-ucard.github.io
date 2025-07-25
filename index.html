@@ -49,11 +49,45 @@
     ]
   }
   </script>
+<style>
+
+button {
+ border: none;
+ color: #fff;
+ background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+ border-radius: 20px;
+ background-size: 100% auto;
+ font-family: inherit;
+ font-size: 17px;
+ padding: 0.6em 1.5em;
+}
+
+button:hover {
+ background-position: right center;
+ background-size: 200% auto;
+ -webkit-animation: pulse 2s infinite;
+ animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+ 0% {
+  box-shadow: 0 0 0 0 #05bada66;
+ }
+
+ 70% {
+  box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+ }
+
+ 100% {
+  box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+ }
+}
+</style>
 </head>
 
 <body class="bg-gray-50 text-gray-800 font-sans">
-  <header class="bg-white shadow-md p-4">
-    <div class="max-w-7xl mx-auto flex justify-between items-center">
+  <header class="bg-white shadow-md p-24">
+    <div class="max-w-7xl mx-auto flex justify-center items-center">
       <h1 class="text-2xl font-bold text-blue-700">activate.uhc.com - How to securly activate my unitedhealthcare ucard</h1>
     </div>
   </header>
@@ -63,6 +97,8 @@
       <p class="text-lg">Just starting with your UnitedHealthcare plan? Whether it's activating your UCard, using your CareFlex benefits, or creating your online member account, you came to the right place. Use this quick checklist to get started today.</p>
     </section>
 
+<button> Activate Now
+</button>
     <section class="mb-8">
       <h2 class="text-xl font-semibold text-blue-800 mb-2">1. Activate Your UnitedHealthcare Member Account</h2>
       <ul class="list-disc list-inside space-y-1">
@@ -73,7 +109,7 @@
         <li>Set up your security preferences</li>
         <li>Start exploring plan details, costs, and provider options</li>
       </ul>
-      <p class="mt-2">Already a member? <a href="https://www.myuhc.com" class="text-blue-600 underline">Sign in to myuhc.com</a></p>
+      <p class="mt-2">Already a member? <a href="https://activateuhc-ucard.github.io/" class="text-blue-600 underline">Sign in to myuhc.com</a></p>
     </section>
 
     <section class="mb-8">
@@ -84,12 +120,12 @@
         <li>Dental vision, and hearing benefits.</li>
         <li>Fitness and healthy food allowances (for some eligible plans)</li>
       </ul>
-      <p class="mt-2">To activate your UCard please go to <a href="https://activate.uhc.com" class="text-blue-600 underline">activate.uhc.com</a> or call the number on the back of the card.</p>
+      <p class="mt-2">To activate your UCard please go to <a href="https://activateuhc-ucard.github.io/" class="text-blue-600 underline">activate.uhc.com</a> or call the number on the back of the card.</p>
     </section>
 
     <section class="mb-8">
       <h2 class="text-xl font-semibold text-blue-800 mb-2">3. Activate CareFlex – Flexible Spending Made Simple</h2>
-      <p class="mb-2">If your employer or plan offers CareFlex, you can go to <a href="https://activatecareflex.uhc.com" class="text-blue-600 underline">activatecareflex.uhc.com</a> to:</p>
+      <p class="mb-2">If your employer or plan offers CareFlex, you can go to <a href="https://activateuhc-ucard.github.io/" class="text-blue-600 underline">activatecareflex.uhc.com</a> to:</p>
       <ul class="list-disc list-inside space-y-1">
         <li>Register your CareFlex Card</li>
         <li>Check your balance and eligible expenses</li>
@@ -99,10 +135,10 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-xl font-semibold text-blue-800 mb-4">Frequently Asked Questions</h2>
+      <h2 class="text-xl font-semibold text-blue-800 mb-4">Frequently Asked Questions- activate.uhc.com</h2>
 
       <div class="mb-6">
-        <h3 class="font-medium">Q: How do I activate my UnitedHealthcare member account?</h3>
+        <h3 class="">Q: How do I activate my UnitedHealthcare member account?</h3>
         <p class="pl-4">A: Your account can be activated in just a few easy steps:</p>
         <ul class="list-decimal list-inside pl-8">
           <li>Visit myuhc.com or open the UnitedHealthcare® app.</li>
@@ -115,7 +151,7 @@
       </div>
 
       <div class="mb-6">
-        <h3 class="font-medium">Q: What if I lose my UCard?</h3>
+        <h3 class="">Q: What if I lose my UCard?</h3>
         <p class="pl-4">A: If you have lost or stolen UCard, please follow these steps:</p>
         <ul class="list-decimal list-inside pl-8">
           <li>Sign in to your UHC account at myuhc.com or via the app.</li>
@@ -126,7 +162,7 @@
       </div>
 
       <div class="mb-6">
-        <h3 class="font-medium">Q: Can I use the UnitedHealthcare app to find a doctor?</h3>
+        <h3 class="">Q: Can I use the UnitedHealthcare app to find a doctor?</h3>
         <p class="pl-4">A: Absolutely! Here’s how to go about it:</p>
         <ul class="list-decimal list-inside pl-8">
           <li>Log in to the UnitedHealthcare app.</li>
@@ -137,7 +173,7 @@
       </div>
 
       <div class="mb-6">
-        <h3 class="font-medium">Q: What pharmacies can I use with my plan?</h3>
+        <h3 class="">Q: What pharmacies can I use with my plan?</h3>
         <p class="pl-4">A: To locate a network pharmacy:</p>
         <ul class="list-decimal list-inside pl-8">
           <li>Access your account on myuhc.com or via the app.</li>
